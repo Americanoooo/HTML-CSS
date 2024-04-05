@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens adaptadas</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>teste de imagens</p>
+    <picture>
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <source media="(max-width:750px )" srcset="imagens/p.png" type="image/png">
+        
+        <img src="imagens/grande.png" alt="imagem flexivel">
+
+    </picture>
+    <h1>Pix ou presente</h1>
+    <p>abaixo está exemplo de audio</p>
+    <audio preload="metadata"autoplay controls> 
+        <source src="midia/pix ou presente.mp3" type="audio/mpeg">
+        <source src="midia/pix ou presente.mav" type="audio/mav">
+        <source src="midia/pix ou presente.ogg" type="audio/ogg">
+        <p>seu navegador é ruim e nao produz audio</p>
+        <a href="google.com"> baixe o google aq</a>
+    </audio>
+</body>
+</html>

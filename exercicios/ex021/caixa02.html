@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(109, 103, 103);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+        nav > a{
+            text-decoration: none;
+            color: green;
+            font-weight: bolder;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+            text-align: center;
+            box-shadow: 4px rgba(0, 0, 0, 0.795);
+        }       
+            footer {
+                background-color: brown;
+                color: white;
+
+            }
+            article{
+                background-color: lightblue;
+            }
+            article > aside{
+                background-color: aquamarine;
+            }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50px;
+            margin: auto;
+            
+}
+            
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+<nav>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+</nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit porro deserunt doloremque, beatae totam est consectetur harum saepe, aliquam rem dolor, nisi sunt sit ad magni voluptates iure fuga? Voluptatum?</p>
+                <aside>
+                    <p>Artigo escrito por jose</p>
+                </aside>
+            </article>
+        </section>
+
+
+    </main>
+
+    <footer>
+<p>Desenvolvido pelo CursoemVideo</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
